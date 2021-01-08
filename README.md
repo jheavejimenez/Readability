@@ -24,4 +24,4 @@ Grade 9
 
 ```
 # Explanation
-The text the user inputted has 137 letters, 3 sentences, and 23 words. 137 letters per 23 words is an average of about 595.65 letters per 100 words. And 3 sentences per 23 words is an average of about 13.04 sentences per 100 words. Plugged into the Coleman-Liau formula, and rounded to the nearest whole number, we get an answer of 9: so this passage is at a 9th grade reading level.
+The text the user inputted has 137 letters, 3 sentences, and 23 words. 137 letters per 23 words is an average of about 595.65 letters per 100 words. And 3 sentences per 23 words is an average of about 13.04 sentences per 100 words. Plugged into the Coleman-Liau formula, and rounded to the nearest whole number, we get an answer of 9: so this passage is at a ninth grade reading level.
