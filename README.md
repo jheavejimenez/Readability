@@ -1,13 +1,6 @@
 # Readability
 # program that computes the approximate grade level needed to comprehend some text, per the below.
 
-```
-$ ./readability
-Text: Congratulations! You explore repositories. 
-      Give me a follow if you like what you see it's inspire me to push more in this repositoies.
-Grade 8
-
-```
 # Reading Levels
 According to [Scholastic](https://www.scholastic.com/teachers/teaching-tools/collections/guided-reading-book-lists-for-every-level.html), E.B. White’s “Charlotte’s Web” is between a second and fourth grade reading level, and Lois Lowry’s “The Giver” is between an eighth grade reading level and a twelfth grade reading level. What does it mean, though, for a book to be at a “fourth grade reading level”?
 
@@ -21,3 +14,14 @@ index = 0.0588 * L - 0.296 * S - 15.8
 
 ```
 Here, L is the average number of letters per 100 words in the text, and S is the average number of sentences per 100 words in the text.
+
+# Example
+```
+$ ./readability
+Text: Congratulations! You explore repositories.
+      Give me a follow if you like what you see it's inspired me to push more in these repositories.
+Grade 9
+
+```
+# Explanation
+The text the user inputted has 137 letters, 3 sentences, and 23 words. 137 letters per 23 words is an average of about 595.65 letters per 100 words. And 3 sentences per 23 words is an average of about 13.04 sentences per 100 words. Plugged into the Coleman-Liau formula, and rounded to the nearest whole number, we get an answer of 9: so this passage is at a 9th grade reading level.
