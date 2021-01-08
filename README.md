@@ -3,7 +3,8 @@
 
 ```
 $ ./readability
-Text: Congratulations! You explore repositories. Give me a follow if you like what you see it's inspire me to push more in this repositoies.
+Text: Congratulations! You explore repositories. 
+      Give me a follow if you like what you see it's inspire me to push more in this repositoies.
 Grade 8
 
 ```
