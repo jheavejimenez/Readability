@@ -8,7 +8,7 @@ Well, in many cases, a human expert might read a book and make a decision on the
 
 So what sorts of traits are characteristic of higher reading levels? Well, longer words probably correlate with higher reading levels. Likewise, longer sentences probably correlate with higher reading levels, too. A number of “readability tests” have been developed over the years, to give a formulaic process for computing the reading level of a text.
 
-One such readability test is the [Coleman-Liau index. The Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index#:~:text=The%20Coleman%E2%80%93Liau%20index%20is,necessary%20to%20comprehend%20the%20text.) of a text is designed to output what (U.S.) grade level is needed to understand the text. The formula is:
+One such readability test is the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index#:~:text=The%20Coleman%E2%80%93Liau%20index%20is,necessary%20to%20comprehend%20the%20text.). The Coleman-Liau index of a text is designed to output what (U.S.) grade level is needed to understand the text. The formula is:
 ```
 index = 0.0588 * L - 0.296 * S - 15.8
 
