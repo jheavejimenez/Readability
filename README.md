@@ -1,5 +1,5 @@
 # Readability
-### A program that computes the approximate grade level needed to comprehend some text, per the below.
+### A program that computes the approximate grade level needed to comprehend text. 
 
 # Reading Levels
 According to [Scholastic](https://www.scholastic.com/teachers/teaching-tools/collections/guided-reading-book-lists-for-every-level.html), E.B. White’s “Charlotte’s Web” is between a second and fourth grade reading level, and Lois Lowry’s “The Giver” is between an eighth grade reading level and a twelfth grade reading level. What does it mean, though, for a book to be at a “fourth grade reading level”?
